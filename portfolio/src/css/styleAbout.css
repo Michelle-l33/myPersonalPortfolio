@@ -1,0 +1,94 @@
+
+.button{
+    border: 0px;  
+}
+.button :hover{
+    padding: 5px;
+    border-bottom: 3px solid #333;
+    position:relative;
+}
+.title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding-top:15px;
+    
+}
+.main{
+    display: flex;
+    flex-direction: rows;
+    column-gap: 50px;
+    align-items: center;
+    justify-content: space-around;
+}
+.maincol{
+    flex: 1;
+    text-align: center;
+}
+
+.img-grid{
+    display:flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.column{
+    flex: 1;
+    align-self: center;
+
+}
+.column img{
+    max-width: 100%;
+    max-height:fit-content;
+    padding: 5px;
+}
+img{
+    border-radius: 25px;
+    position:initial;
+    
+}
+.bars {
+    width:auto;
+    height: auto;
+    display: flex;
+    flex-direction: rows;
+    align-items: center;
+    justify-content: center;
+    column-gap: 30px;
+    font-family: Georgia,serifs;
+    padding: 15px;
+}
+progress {
+    appearance: none;
+    border-radius: 20px;
+    border: 1px solid #768DBC;
+}
+progress::-webkit-progress-bar { 
+    background-color: white; 
+    border-radius: 20px;
+}
+
+progress::-webkit-progress-value {
+    background-color: #768DBC;
+    border-radius: 20px; 
+}
+.totop{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+h1 {
+    text-align: center;
+    padding: 2vh;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    font-family: Georgia, serif;
+ }
+ body {
+    font-family:Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #323848;
+    color: #333;
+ }
